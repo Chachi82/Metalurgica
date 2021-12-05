@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('../partials/links.ejs')%>
+</head>
+<body>
+
+        <%-include('../partials/nav.ejs')%>
+
+        <form class="formulario">
+            <H1 class="registrarse">Inicio de Sesion</H1>
+        <div class="contenedor3">
+    
+    
+         <div class="imput-contenedor">
+            <input type="text" placeholder="Correo Electronico">
+        </div>
+        <div class="imput-contenedor">
+            <input type="password" placeholder="Contraseña">
+        </div>
+        <div class="imput-contenedor">
+            <input type="submit" value="Iniciar Sesion" class="button">
+            <p class="registro">Al registrarte, aceptas nuestras Condiciones de uso y Politicas de privacidad.</p>
+            <p class="registro">¿No tienes cuenta? <a class="link" href="/registro">Registrarse </a></p>
+        </div>
+    
+        </div>
+    
+    
+        </form>
+
+
+    <%-include('../partials/footer.ejs')%>
+</body>
+</html>

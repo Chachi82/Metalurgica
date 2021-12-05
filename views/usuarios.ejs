@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/links.ejs')%>
+</head>
+<body>
+
+        <%-include('./partials/nav.ejs')%>
+
+        <main class="principal">
+            <div class="contenedor2">
+                <h1> Estos son los Usuarios registrados hasta el momento </h1>
+    
+                <ul>
+                    <%-include('../usuarios.json')%>
+                </ul>
+    
+    
+    
+            </div>
+        </main>
+        
+    <%-include('./partials/footer.ejs')%>
+</body>
+</html>
